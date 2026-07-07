@@ -298,10 +298,20 @@ DoPlayerMovement::
 	ret
 
 .walk
-	ld a, STEP_WALK
-	call .DoStep
-	scf
-	ret
+    ldh a, [hJoyDown]       ; Check currently held buttons
+    bit B_BUTTON_F, a       ; Is the B button being held?
+    jr z, .not_running      ; If not, walk normally
+
+    ld a, STEP_BIKE         ; Use "Fast Step" (same speed as Bicycle)
+    jr .do_the_step
+
+.not_running:
+    ld a, STEP_WALK         ; Use "Normal Step"
+
+.do_the_step:
+    call .DoStep            ; Execute the movement
+    scf
+    ret
 
 .ice
 	ld a, STEP_ICE
