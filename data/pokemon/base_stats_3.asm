@@ -36,9 +36,9 @@ INCLUDE "data/pokemon/base_stats/vespiquen.asm"          ; VESPIQUEN
 INCLUDE "data/pokemon/base_stats/pachirisu.asm"          ; PACHIRISU
 INCLUDE "data/pokemon/base_stats/buizel.asm"             ; BUIZEL
 INCLUDE "data/pokemon/base_stats/floatzel.asm"           ; FLOATZEL
-; INCLUDE "data/pokemon/base_stats/cherubi.asm"          ; 
-; INCLUDE "data/pokemon/base_stats/cherrim_overcast.asm" ; 
-; INCLUDE "data/pokemon/base_stats/cherrim_sunshine.asm" ; 
+INCLUDE "data/pokemon/base_stats/cherubi.asm"            ; CHERUBI
+INCLUDE "data/pokemon/base_stats/cherrim_overcast.asm"   ; CHERRIM_OVERCAST
+INCLUDE "data/pokemon/base_stats/cherrim_sunshine.asm"   ; CHERRIM_SUNSHINE
 INCLUDE "data/pokemon/base_stats/shellos.asm"            ; SHELLOS_E
 INCLUDE "data/pokemon/base_stats/shellos.asm"            ; SHELLOS_W
 INCLUDE "data/pokemon/base_stats/gastrodon.asm"          ; GASTRODON_E
@@ -59,8 +59,8 @@ INCLUDE "data/pokemon/base_stats/bronzong.asm"           ; BRONZONG
 INCLUDE "data/pokemon/base_stats/bonsly.asm"             ; BONSLY
 INCLUDE "data/pokemon/base_stats/mime_jr.asm"            ; MIME_JR
 INCLUDE "data/pokemon/base_stats/happiny.asm"            ; HAPPINY
-; INCLUDE "data/pokemon/base_stats/chatot.asm"           ; 
-; INCLUDE "data/pokemon/base_stats/spiritomb.asm"        ; 
+INCLUDE "data/pokemon/base_stats/chatot.asm"             ; CHATOT
+INCLUDE "data/pokemon/base_stats/spiritomb.asm"          ; SPIRITOMB
 INCLUDE "data/pokemon/base_stats/gible.asm"              ; GIBLE
 INCLUDE "data/pokemon/base_stats/gabite.asm"             ; GABITE
 INCLUDE "data/pokemon/base_stats/garchomp.asm"           ; GARCHOMP
@@ -97,7 +97,7 @@ INCLUDE "data/pokemon/base_stats/gallade.asm"            ; GALLADE
 INCLUDE "data/pokemon/base_stats/probopass.asm"          ; PROBOPASS
 INCLUDE "data/pokemon/base_stats/dusknoir.asm"           ; DUSKNOIR
 INCLUDE "data/pokemon/base_stats/froslass.asm"           ; FROSLASS
-; INCLUDE "data/pokemon/base_stats/rotom.asm"            ; 
+INCLUDE "data/pokemon/base_stats/rotom.asm"              ; ROTOM
 ; INCLUDE "data/pokemon/base_stats/uxie.asm"             ; 
 ; INCLUDE "data/pokemon/base_stats/mesprit.asm"          ; 
 ; INCLUDE "data/pokemon/base_stats/azelf.asm"            ; 
