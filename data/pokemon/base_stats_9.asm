@@ -16,8 +16,8 @@ INCLUDE "data/pokemon/base_stats/tadbulb.asm"      ; TADBULB
 INCLUDE "data/pokemon/base_stats/bellibolt.asm"    ; BELLIBOLT
 INCLUDE "data/pokemon/base_stats/wiglett.asm"      ; WIGLETT
 INCLUDE "data/pokemon/base_stats/wugtrio.asm"      ; WUGTRIO
-; INCLUDE "data/pokemon/base_stats/glimmet.asm"    ; 
-; INCLUDE "data/pokemon/base_stats/glimmora.asm"   ; 
+INCLUDE "data/pokemon/base_stats/glimmet.asm"      ; GLIMMET
+INCLUDE "data/pokemon/base_stats/glimmora.asm"     ; GLIMMORA
 INCLUDE "data/pokemon/base_stats/greavard.asm"     ; GREAVARD
 INCLUDE "data/pokemon/base_stats/houndstone.asm"   ; HOUNDSTONE
 INCLUDE "data/pokemon/base_stats/flamigo.asm"      ; FLAMIGO
